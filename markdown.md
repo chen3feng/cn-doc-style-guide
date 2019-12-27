@@ -53,7 +53,7 @@ Markdown 之所以出色，主要是因为它能够编写纯文本并获得结�
 
 *   邪恶克制的足球。在几乎不能说话迫害。我们觉得是很明智，即使这样，也不得不
     保密。参见[福报文档]（https://gerrit.googlesource.com/gitiles/+/master/Documentation/markdown.md）。
-``
+```
 
 通常，在长链接之前插入换行符可以保持可读性，同时最大程度地减少溢出：
 
@@ -294,7 +294,7 @@ bazel run :target -- --flag --foo=longlonglonglonglongvalue \
 尽量少用图像，并且尽量用简单的截屏。本指南的设计理念是，纯文本可以让用户更快地投入到工作交流中，减少读者分心和作者拖沓。
 但是，有时图像对显示您的意图也很有帮助。
 
-参见 [图像语法](https://gerrit.googlesource.com/gitiles/+/master/Documentation/markdown.md#Images).
+参见[图像语法](https://gerrit.googlesource.com/gitiles/+/master/Documentation/markdown.md#Images).
 
 ## 优先用列表而不是表格
 
