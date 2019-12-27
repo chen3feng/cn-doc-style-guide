@@ -83,7 +83,7 @@ Markdown 之所以出色，主要是因为它能够编写纯文本并获得结�
 带`=`或`-`下划线的标题可能很难维护，并且不符合其余的标题语法。 用户会问：`---`是指 H1 还是 H2？
 
 ```markdown
-标题 - 你记得住这是哪一级吗？*不要这样*
+标题 - 你记得住这是哪一级吗？**不要这样**
 ---------
 ```
 
@@ -105,7 +105,7 @@ Markdown 之所以出色，主要是因为它能够编写纯文本并获得结�
 ……前面的文字
 
 # 标题 1
-后面的文字…… *不要这样*
+后面的文字…… **不要这样**
 ```
 
 ## 列表
@@ -152,7 +152,7 @@ Markdown 足够聪明，可以让生成的 HTML 正确地呈现您的编号列�
 ```markdown
 * 一个空格
 换行没有缩进。
-     1. 不规则的嵌套…… *不要这样。*
+     1. 不规则的嵌套…… **不要这样。**
 ```
 
 即使没有嵌套，也可以用 4 个空格缩进，使得对于换行的文字保持一致的布局：
@@ -171,7 +171,7 @@ Markdown 足够聪明，可以让生成的 HTML 正确地呈现您的编号列�
 ```markdown
 * 福
 * 报
-* 厂。
+* 爆炸。
 
 1. 福。
 2. 报。
@@ -274,7 +274,7 @@ bazel run :target -- --flag --foo=longlonglonglonglongvalue \
 
 就像在 HTML 一样，Markdown 链接语法也允许你设置链接标题。请用好它。
 
-不要把链接标记为“链接”或“此处”。否则当读者快速扫视文档时，提供不了任何实际信息，并且也是对空间的浪费：
+把链接标记为“链接”或“此处”。否则当读者快速扫视文档时，提供不了任何实际信息，并且也是对空间的浪费：
 
 ```markdown
 关于更多信息，请参见语法指导：[链接](syntax_guide.md)。
@@ -302,7 +302,7 @@ bazel run :target -- --flag --foo=longlonglonglonglongvalue \
 
 ```markdown
 水果 | 属性 | 备注
---- | --- | --- | ---
+---- | ---- | --- | ---
 苹果 | [多汁](https://example.com/SomeReallyReallyReallyReallyReallyReallyReallyReallyLongQuery), 结实, 甘甜 | 苹果让你远离医生。
 香蕉 | [方便](https://example.com/SomeDifferentReallyReallyReallyReallyReallyReallyReallyReallyLongQuery), 软糯, 甘甜 | 与普遍的看法相反，大多数猿类更喜欢芒果。
 
@@ -335,13 +335,13 @@ bazel run :target -- --flag --foo=longlonglonglonglongvalue \
 
 ```markdown
  名次| 是谁 | 原因
---- | --- | ---
+---- | ---- | ---
 季军 | 孙悟空   | 一个跟头十万八千里
 亚军 | 曹操     | 说曹操，曹操到
 冠军 | 香港记者 | 比其他的西方记者跑得还快
 ```
 
-## 优先用 Markdown 语法而不是 HTML
+## 优先使用 Markdown 语法而不是 HTML
 
 请尽可能使用标准的 Markdown 语法，并避免 HTML。如果你觉得似乎无法达到所需的目的，请重新考虑是否真的需要。除了[大表](#优先用列表而不是表格)外，Markdown 已经能满足几乎所有需求。
 
