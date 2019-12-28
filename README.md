@@ -2,7 +2,7 @@
 
 本项目旨在维护中文文档编写规范。
 
-以下是翻译的 Google 文档规范：
+以下是翻译的 [Google 代码规范之文档规范](https://github.com/google/styleguide/tree/gh-pages/docguide)：
 * [Markdown 规范](/markdown.md)
 * [README 规范](/READMEs.md)
 * [哲学](/philosophy.md)
