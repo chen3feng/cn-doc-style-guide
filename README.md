@@ -2,7 +2,10 @@
 
 本项目旨在维护中文文档编写规范。
 
+以下是翻译的 Google 文档规范：
 * [Markdown 规范](/markdown.md)
 * [README 规范](/READMEs.md)
 * [哲学](/philosophy.md)
 * [最佳实践](/best_practices.md)
+
+以下是本人收集整理和原创的中文世界的主流规范：
