@@ -1,8 +1,7 @@
 # 文档最佳实践
 
 “简单直接地说出你的意图。”
-——[Brian Kernighan：《编程风格的要素》]
-(https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)
+——[Brian Kernighan：《编程风格的要素》](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)
 
 ## 最低可行文档
 
@@ -30,8 +29,8 @@
 *   慢慢来，文档健康是逐步积累的。
 *   首先删除您确定是错误的内容，而忽略不清楚的内容。
 *   让您的整个团队参与其中。花时间快速扫描每个文档并做出简单的决定：保留还是删除？
-*   默认为删除或迁移后保留。总是能恢复的。
-*   重复迭代。
+*   默认为删除或迁移后保留。别纠结，总有办法恢复的。
+*   持续迭代。
 
 ## 追求好而不是完美
 
