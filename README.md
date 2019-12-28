@@ -2,7 +2,7 @@
 
 本项目旨在维护中文文档编写规范。
 
-* [Markdown 规范](/docguide/style.md)
-* [README 规范](/docguide/READMEs.md)
-* [哲学](/docguide/philosophy.md)
-* [最佳实践](/docguide/best_practices.md)
+* [Markdown 规范](/markdown.md)
+* [README 规范](/READMEs.md)
+* [哲学](/philosophy.md)
+* [最佳实践](/best_practices.md)
