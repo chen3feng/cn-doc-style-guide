@@ -8,6 +8,8 @@
 * [哲学](philosophy.md)
 * [最佳实践](best_practices.md)
 
-以下是本人收集整理和原创的中文世界的主流规范：
+以下是本人收集整理的中文世界的一些主流规范：
 
-（不要着急，还没写完）
+* 阮一峰：[中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
+* [《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
+* 国家标准：[GB/T 15834-2001 《标点符号用法》](http://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091548267.pdf)
