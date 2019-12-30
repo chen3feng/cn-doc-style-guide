@@ -8,6 +8,8 @@
 * [哲学](philosophy.md)
 * [最佳实践](best_practices.md)
 
+这里是更详细的 Google [开发者文档规范](https://developers.google.com/style)，涉及到英文行文和标点符号的规范用法，没有翻译。
+
 以下是本人收集的一些中文世界的主流规范：
 
 * 阮一峰：[中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
