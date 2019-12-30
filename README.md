@@ -8,7 +8,7 @@
 * [哲学](philosophy.md)
 * [最佳实践](best_practices.md)
 
-以下是本人收集整理的中文世界的一些主流规范：
+以下是本人收集的一些中文世界的主流规范：
 
 * 阮一峰：[中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
 * [《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
