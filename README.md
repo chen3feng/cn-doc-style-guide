@@ -1,6 +1,6 @@
-# 中文文档规范
+# 中文文档撰写指南
 
-本项目旨在维护中文文档编写规范。
+本项目旨在提供一份中文技术文档的编写指南。
 
 以下是翻译的 [Google 开源代码规范里的文档规范部分](https://github.com/google/styleguide/tree/gh-pages/docguide)：
 * [Markdown 规范](markdown.md)
