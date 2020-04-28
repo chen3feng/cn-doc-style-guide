@@ -13,5 +13,5 @@ Google 还有一份更详细的[开发者文档规范](https://developers.google
 以下是收集整理的一些中文世界的主流规范：
 
 * 阮一峰：[中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
-* [《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
-* 国家标准：[GB/T 15834-2001 《标点符号用法》](http://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091548267.pdf)
+* @Sparanoid：[《中文文案排版指北》](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-CN.md)
+* 中国国家标准：[GB/T 15834-2001 《标点符号用法》](http://www.moe.gov.cn/ewebeditor/uploadfile/2015/01/13/20150113091548267.pdf)
