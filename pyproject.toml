@@ -1,0 +1,40 @@
+# Tooling config for the cndocstyle package and its tests.
+# The project uses a standard src-layout so the package is importable as
+# ``cndocstyle`` once ``src/`` is on sys.path. Pytest picks this up
+# declaratively via ``[tool.pytest.ini_options].pythonpath`` below, so no
+# ``sys.path`` manipulation is needed in tests.
+#
+# The repository root stays documentation-oriented: the Python sources live
+# under ``src/cndocstyle/`` and tests under ``tests/``.
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+src = ["src", "tests"]
+extend-exclude = ["__pycache__"]
+
+[tool.ruff.lint]
+# Rule set:
+# - E / W : pycodestyle errors & warnings
+# - F     : pyflakes
+# - I     : import ordering
+# - B     : flake8-bugbear (likely bugs)
+# - UP    : pyupgrade (keep code idiomatic for the target Python version)
+select = ["E", "F", "W", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests use a few loose patterns (fixtures, monkeypatching, re-imports).
+"tests/*" = ["E501"]
+
+[tool.ruff.format]
+# Use double quotes by default — ruff's default, matching Black / PEP 8
+# conventions. ruff will still switch to single quotes automatically when
+# the literal contains a double quote, which matches what a human would do.
+quote-style = "double"
+indent-style = "space"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+pythonpath = ["src"]
+addopts = "-ra"
