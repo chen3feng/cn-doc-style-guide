@@ -1,0 +1,12 @@
+# Python bytecode / cache
+__pycache__/
+*.pyc
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+
+# Editor / scratch files
+.commit_msg.tmp
+.*.tmp
+.*.tmp.md
